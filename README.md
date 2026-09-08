@@ -49,5 +49,5 @@ SW 시스템의 흐름과 상태를 이해하고, HW·SW가 연결되는 지점�
 
 ## Contact
 
-- Email: [p27354363@gmail.com](mailto:p27354363@gmail.com)
+- Email: [deokyoung.dev@gmail.com](mailto:deokyoung.dev@gmail.com)
 - Portfolio: Notion 포트폴리오 정리 중
