@@ -17,6 +17,15 @@ Android·FastAPI 기반 무인 우산 대여 시스템을 개발했으며, 앱·
 - Raspberry Pi 제어 프로그램과 서버 간 API를 연동해 **앱 → 서버 → 실제 장치 → 상태 변경**으로 이어지는 흐름 구성
 - 요청, 장치 상태, DB 상태를 함께 확인하며 오류 발생 지점을 추적
 
+### 🧰 [LabGear](https://github.com/gduck0/labgear-service)
+**학과 실습·캡스톤 기자재 대여·예약 관리 시스템 · 개발 중**  
+`Java` `Spring Boot` `Spring Data JPA` `Spring Security` `MySQL` `React`
+
+- Java·Spring Boot 기반 개인 프로젝트로 기자재 관리·예약 API 구현
+- 예약 기간 겹침 검사와 예약이 연결된 기자재의 삭제 제한
+- 회원가입·세션 기반 인증과 React 화면 연동
+- API·서비스 통합 테스트로 정상 요청·오류 처리·데이터 보존 검증
+
 ### 🏠 [스마트홈 통합 제어 시스템](https://github.com/gduck0/smarthome)
 **Raspberry Pi 기반 멀티프로세스 스마트홈 통합 제어 시스템**  
 `C` `Python` `Raspberry Pi` `pthread` `POSIX Message Queue` `GPIO` `NFC` `Bluetooth`
