@@ -1,8 +1,10 @@
 # 길덕영
 
-SW 시스템의 흐름과 상태를 이해하고, HW·SW가 연결되는 지점의 문제를 추적하는 컴퓨터공학 전공자입니다.
+API·DB·장치 사이의 흐름을 연결하고, 데이터와 처리 상태가 어긋나는 문제를 추적·개선합니다.
 
-현재 한국전력기술 현장실습에서 Python/FastAPI 기반 OCR·LLM 업무 시스템의 구조와 처리 흐름을 분석하고 있으며, 프로젝트에서는 백엔드·임베디드·VR/데이터 분석을 경험했습니다.
+Android·FastAPI 기반 무인 우산 대여 시스템을 개발했으며, 한국전력기술 현장실습에서는 OCR·LLM 업무 시스템의 데이터 검증, 처리 상태 복구, 업무 UI 개선을 수행했습니다.
+
+현재는 Java·Spring Boot 기반 기자재 대여·예약 시스템 **LabGear**를 개발하고 있습니다.
 
 ## Projects
 
@@ -34,18 +36,18 @@ SW 시스템의 흐름과 상태를 이해하고, HW·SW가 연결되는 지점�
 
 ## Experience
 
-**한국전력기술 현장실습 | 2026.09 ~ 현재**
+### 한국전력기술 현장실습 | 2026.09 ~ 현재
 
-- 발전소 설계도면을 처리하는 OCR·LLM 시스템의 구조와 업무 흐름 분석
-- PDF 등록 → Job 생성 → 페이지 처리 → OCR → DB 저장으로 이어지는 API·DB·처리 로직 추적
-- 각 단계의 데이터 생성·변경과 상태 전이를 따라가며 전체 프로세스를 이해하는 경험 축적
+- **저장 데이터 검증:** LLM 출력의 표기 차이가 잘못된 DB 컬럼 생성으로 이어지는 문제를 분석하고, 정규화·표준 필드 매핑·저장 검증을 적용했습니다.
+- **OCR 처리 흐름 개선:** 처리 상태를 DB에 영속화하고 재시작 복원과 페이지 단위 재처리를 구현했습니다. 조건부 상태 갱신과 lease 기반 복구로 후속 안정화를 진행했습니다.
+- **업무 UI 개선:** 기존 API·실시간 이벤트·DB 저장 연동을 유지하며 React로 전환하고, 사용자 피드백을 반영해 작업 흐름을 정리한 뒤 운영 서버에 배포했습니다.
 
-## Tech Stack
+## Tech
 
-- **Languages:** C, Python, Kotlin
-- **Backend / App:** FastAPI, Android SDK, Retrofit2, OkHttp
-- **System / Embedded:** Linux, Raspberry Pi, pthread, POSIX Message Queue, GPIO
-- **Data / Tools:** SQLite, SQL, Git, GitHub, Railway
+- **Backend:** Java · Spring Boot · Spring Data JPA · Spring Security · Python · FastAPI
+- **Database / Test:** MySQL · SQLite · JUnit 5 · MockMvc · pytest
+- **App / System:** Kotlin · Android · C · Linux · Raspberry Pi
+- **Tools / Infra:** Git · GitHub Actions · Railway · GCP
 
 ## Contact
 
